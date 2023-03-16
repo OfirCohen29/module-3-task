@@ -3,5 +3,5 @@ jobs:
   echo issues event metadata:
     runs-on: ubuntu-latest
     steps:
-      - name: echo issues event metadata
+      - name: print issues event metadata
         run: echo ${{ toJSON(github) }}
