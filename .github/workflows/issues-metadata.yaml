@@ -1,3 +1,4 @@
+name: issues-event
 on: issues
 jobs:
   issues-metadata:
